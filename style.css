@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+/*common css*/
+/* .bd-container1{
+    margin:0px 80px;
+    /* margin: 0; */
+  /* padding: 0; */
+    /* padding-right: 120px; 
+    width: 2015px; 
+   
+    background-color: var(--background-color);
+}  */
+.container{
+   margin-right: 250px;
+   margin-left: 220px;
+    /* width: 2160px; */
+    width: 1770px;
+    gap: 60px;
+    justify-content: space-between;
+}
+.padding-both{
+    padding: 70px 0px;
+}
+.flex-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half-div{
+    width: 100%;
+}
+
+/*common css end*/
+
+.logo h1{
+font-size: 24px;
+font-weight: 600;
+color:coral;
+}
+.sitenav li{
+    list-style: none;
+    margin-left: 21px;
+}
+.sitenav li a{
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.flex-div li button{
+    background-color: rgb(244, 80, 21);
+    padding: 10px 20px; 
+    font-size: 20px; 
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    
+}
+
+/* bannar section start*/
+
+.bannar-content h1{
+font-size: 40px;
+line-height: 60px;
+font-weight: 700;
+}
+.highlight{
+color:rgb(244, 80, 21);
+}
+.bannar-content h1 img{
+   padding:0px 2px;
+}
+.bannar-content p{
+    font-size: 15px;
+    line-height: 24px;
+    margin: 16px 0px;
+}
+.bannar-content h6{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  margin:25px 0px;
+     
+}
+.bannar-content h6 img{
+    padding:0px 3px;
+ }
+.button{
+    display: flex;
+    background-color:rgb(78, 77, 77);
+    padding: 8px 10px;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+    border-right:2px solid rgb(165, 163, 163);
+    border-left:2px solid white;
+    cursor:pointer;
+    border-radius: 70px;
+    width: 45%;
+    align-items: center;
+    gap: 35px;
+}
+
+.orange-button{
+    color:var(--primary-font);
+    text-align: center;
+    background-color:rgb(244, 80, 21);
+     padding: 15px 25px;  
+    display: flex;
+    gap: 5px;
+    /* padding: 40px 0px; */
+    border:none;
+    cursor:pointer;
+    border-radius: 70px;
+    width: 40%;
+    font-size: 25px;
+    margin:0px 0px;
+}
+.check-icon{
+    width: 60px;
+    height: 40px;
+}
+.button p{
+    color:var(--primary-font);
+    font-size: 25px;
+    margin-left: 7px;
+}
+.social-icons {
+    margin-top: 20px;
+  }
+  .social-icons a {
+    color:rgb(46, 44, 44);
+    margin: 0 10px;
+    font-size: 28px;
+    text-decoration: none;
+    
+  }
+
+.profile {
+   
+    width: 550px; 
+    height: 550px;  
+/* height: 100vh; */
+/* margin-top: 15px; */
+margin-left: auto;
+margin-right: auto;
+/* align-items:flex-end; */
+position: relative; 
+/* position:absolute; */
+display: flex;
+   justify-content: center; 
+  border: 5px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(black, black) padding-box,
+              linear-gradient(to top, rgb(166, 126, 51), rgb(56, 41, 41)) border-box;
+  
+}
+.profile-pic {
+    width: 105%;
+  height: 120%;
+  border-radius: 50%;
+  object-fit: cover;
+   position: absolute; 
+   /* top: 0;
+   left: 0; */
+  bottom: 0; 
+  transform: translateY(0.75%);
+   
+  }
+
+/*logo-area css*/
+
+.text-bannar{
+    width: 2285px;
+    /* width: 100%; */
+     transform: rotate(-3deg); 
+    /* padding: 0px 8px;   */
+     margin-left:-85px; 
+     margin-right:-100px;  
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  /* overflow: 0px 3px; */
+  /* Width:1510.83px; */
+/* Height:147px; */
+/* overflow:hidden; */
+}
+.text{
+    padding: 35px 2px;
+     /* width: 100%; */
+     width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+    background-color: black;
+    /* flex-wrap: wrap; jodi 1 line e jayga na hoy taile niche chole jabe */
+   gap: 20px;
+    font-size: 24px;
+  margin-bottom: 170px; 
+  margin-top: -90px;
+  text-align: center;
+  position: relative;
+    /* right: -90px;   */
+}
+.text-bannar img{
+gap: 25px;
+justify-content: space-evenly;
+align-items: center;
+padding: 1px 15px;
+
+}
+/*logo-area css end*/
+
+/*about me css*/
+.about{
+    padding:0px;
+    font-size: 30px;
+}
+.about-me p{
+    font-size: 15px;
+    color:darkgray;
+}
+.experience i{
+color: rgb(244, 80, 21);
+font-size: 25px;
+
+}
+.experience p{
+    font-size: 15px;
+    margin-left:80px;
+}
+
+/*experience css*/
+.exp-container{
+    /* width: 2015px; */
+     margin-top:65px; 
+   margin-left: 0px;
+   margin-right: 0px;
+   padding:0px 0px;
+/* block-size: auto; */
+    background: linear-gradient(90deg, rgb(31, 20, 41),rgb(52, 38, 37), rgb(57, 58, 39) );
+}
+.exp-text{
+    margin-right: 100px;
+    margin-left: 217px;
+    /* width: 2160px; */
+    width: 1770px;
+}
+.my-exp h1{
+    margin:10px 0px;
+    font-size: 30px;
+    /* letter-spacing: 3px; */
+}
+
+.exp-yr
+{
+    display: flex;
+    justify-content: space-between;
+    gap:170px;
+    font-style: italic;
+}
+.exp-info{
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    
+}
+.exp-info h2{
+    padding-bottom:20px;
+}
+
+/*AWARD CSS*/
+.award-container{
+    margin: 140px 0px; 
+}
+.award-text h1{
+/* justify-content:space-evenly; */
+text-align: center;
+align-items:center;
+margin:0px 140px;
+padding-left: 70px;
+padding-bottom: 5px;
+font-size: 40px;
+}
+.award-text p{
+    color: gray;
+    text-align: center;
+    align-items: center;
+    padding-left: 90px;
+    padding-bottom: 5px;
+}
+.aw-info-container{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.aw-info{
+    padding:50px 40px;
+    margin: 0px 15px;
+    gap:170px;
+}
+/*cart css start*/
+/* .portfolio-container{
+    margin: 150px 0px;
+} */
+.port-con-text h1{
+    text-align: center;
+    align-items:center;
+    margin:0px 140px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+.port-con-text p{
+    color: gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.hover-button{
+    margin:30px;
+    /* margin-left: 800px; */
+    /* margin-right: 300px; */
+    padding: 0px 35px;
+display:flex;
+/* align-items: center; */
+justify-content: center;  
+gap:30px;
+}
+
+.hover-button button{
+font-size: 24px;
+background-color: black;
+padding:15px 20px;
+/* margin-left: 800px; */
+/* align-items: center; */
+}
+.hover-button :hover{
+    background-color: rgb(244, 80, 21);
+}
+.portfolio{
+    display: flex;
+    gap:40px;
+}
+.portfolio-img{
+    background-color: black;
+    width:732px;
+    height:510px;
+    margin:15px 0px;
+}
+.portfolio-img img{
+    width:690px;
+    height:510px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.web-info{
+    margin:30px;
+}
+.web-info h1{
+    font-size: 40px;
+    margin:20px 0px;
+}
+.web-info p{
+    font-size: 20px;
+    margin-top: 20px;
+    
+    /* gap: 30px; */
+}
+/*cart css end*/
+
+/* contact css start */
+.contact-container{
+    margin:130px;
+    margin-right: 100px;
+    margin-left: 100px;
+     /* width: 2160px; */
+     /* width: 1770px; */
+     gap: 60px;
+
+}
+.contact-title p{
+    color: white;
+    /* color: gray; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+.contact-title h1{
+    text-align: center;
+    align-items:center;
+    margin:0px 140px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    justify-content: center;
+}
+.contact-info{
+    background-color:rgba(59, 34, 16, 0.852);
+    margin: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.contact-text{
+    padding:70px 110px;
+}
+.contact-text h1{
+    font-size: 40px;
+}
+.contact-text2{
+    /* font-size: 30px; */
+    padding:15px 0px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:100px;
+    border-bottom: 1px solid white;
+
+}
+.attach{
+    padding-top: 15px;
+    display: flex;
+    gap:7px;
+}
+.attach img{
+    width:20px;
+    height: 15px;
+}
+.attah2{
+    margin-top:50px;
+}
+.submit{
+    
+    padding:25px 30px;
+    background-color: black;
+    font-size: 20px;
+}
+.attah2 :hover{
+    background-color:  rgb(244, 80, 21);
+
+}
+footer{
+    background-color: black;
+   
+    
+}
+.footer-area h1{
+font-size: 60px;
+justify-content: center;
+text-align: center;
+margin-top:100px;
+margin-bottom: 50px;
+}
+ .foot-nav{ 
+justify-content: center;
+text-align: center;
+
+} 
+.foot-nav-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:30px;
+    font-size: 20px;
+    margin-bottom: 70px;
+    /* align-items: center; */
+}
+.copyright-container{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
