@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
 /*common css*/
-/* .bd-container1{
-    margin:0px 80px;
-    /* margin: 0; */
-  /* padding: 0; */
-    /* padding-right: 120px; 
-    width: 2015px; 
-   
-    background-color: var(--background-color);
-}  */
+
 .container{
    margin-right: 250px;
    margin-left: 220px;
@@ -169,13 +161,14 @@ display: flex;
 /*logo-area css*/
 
 .text-bannar{
-    width: 2285px;
-    /* width: 100%; */
+     width: 2285px; 
+    /* width: 100hv; */
      transform: rotate(-3deg); 
     /* padding: 0px 8px;   */
-     margin-left:-85px; 
-     margin-right:-100px;  
-    position: relative;
+     margin-left:-12.9px; 
+     margin-right:0px;  
+     padding: 0px 0px;
+    position: relative; 
   display: flex;
   flex-direction: column;
   align-items: center;
